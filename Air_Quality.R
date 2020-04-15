@@ -4,7 +4,7 @@ library(ggplot2)
 library(dplyr)
 
 # Load data directly from github
-df <- read.csv("https://raw.githubusercontent.com/CICC-sample/Example_project/master/GDP_Pollutant_Index.csv?token=APGIFINNNF3P3UBKPPEU4OK6S43BS")
+df <- read.csv("https://raw.githubusercontent.com/CICC-sample/Clean-Growth-Sample/master/data/GDP_Pollutant_Index.csv")
 
 # Reformat data from "wide" to "long"
 df2 <- melt(df, id.vars = "Index", measure.vars = c(2:6))
