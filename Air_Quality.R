@@ -2,6 +2,7 @@
 
 library(ggplot2)
 library(dplyr)
+library(reshape)
 
 # Load data directly from github
 df <- read.csv("https://raw.githubusercontent.com/CICC-sample/Clean-Growth-Sample/master/data/GDP_Pollutant_Index.csv")
